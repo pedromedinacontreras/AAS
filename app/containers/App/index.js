@@ -28,7 +28,7 @@ export function App(props) {
     <MuiThemeProvider muiTheme={getMuiTheme(mainTheme)}>
       <AppWrapper>
         <Helmet
-          defaultTitle="Autogena y accesorios de Sinaloa"
+          defaultTitle="Autogena y accesorios de Sinaloa."
         />
         {React.Children.toArray(props.children)}
       </AppWrapper>
